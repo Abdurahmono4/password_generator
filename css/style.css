@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+    url("../fonts/JetBrainsMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --dark-slate-gray: #24232c;
+  --taupe: #817d92;
+  --platinum-gray: #e6e5ea;
+  --charcoal-gray: #18171f;
+  --mint-green: #a4ffaf;
+  --scarlet: #f64a4a;
+  --terra-cotta: #fb7c58;
+  --goldenrod: #f8cd65;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin-top: 200px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.copied-btn {
+  display: inline-flex;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  transition: color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.first--section {
+  display: flex;
+  width: 540px;
+  height: 80px;
+  background: var(--dark-slate-gray);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 20px;
+  font-family: JetBrains Mono;
+}
+
+.second--section {
+}
+.password-text {
+  font-family: JetBrains Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42.24px;
+  text-align: left;
+  color: #e6e5ea;
+  opacity: 0.4;
+}
